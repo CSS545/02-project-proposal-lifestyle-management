@@ -1,41 +1,93 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8933004&assignment_repo_type=AssignmentRepo)
 Hint: [Markup Guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-# Project Name
-*Project Member 1, Member 2, …*
+# Project Name - Lifestyle Management App
+**Project Members** - Gagneet Sachdeva, Greeshma Parimi, Purva Patil
 
-*Version #*
+**Version** - 1.0
 
 ## Summary of Project
-*(Base this summary on the pitch)*
+Around 70% of adult population rely on digital calendar to manage daily activities, out of which 46.7% rely mostly on mobile calendars. We propose an app which not only alerts users about scheduled work meetings, but also reminds them to take short breaks between long working hours. This will help us improve productivity and maintain healthy lifestyle . This app allow users to add common recurring events like meal hours, exercise hours and other personal activities.
 
 ## Project Analysis
 ### Target Audience
-*(State your target demographic, be as specific as you can.  Why are you targeting this demographic?  How do you plan you reach it?)*
+**Age group** - Primary(18-60)
+
+**Occupation** - Students/Working Professionals/Home makers
+
+**Why?** - The people in this age group usually tend to forget many things while working, so these people are our potential customers
+
+**Plan to reach target audience** - Advertisements, collaborating with Professional Ogranizations
 
 ### Primary Purpose
-*(Summarize the purpose of the project – could be something focused on the benefit of the target audience, your customers, your “company,” or even public good)*
+To help the adults who find it difficult to manage their daily routine both personally and professionally, and maintain a healthy life by adding their daily schedule to the app while reminding the users to take short breaks.
+
 
 ### Value Proposition
-*(What are the pain points or problems you’re addressing?  For whom?  If possible, cite facts that support your claim that these are real pain points/problems to address)*
+It reminds the users about  their daily personal & professional events with a reminder/alert.
+
+The app will help users to reduce their stress and increase the productivity. 
+
 
 ### Success Criteria
-*(How will you know whether your app was successful?  Financial gain?  User satisfaction?  Market share?  Public good?  How will you measure the success?)*
+Number of people actively using the app, for eg. people customizing their schedule in the app
+
+Number of downloads from the app store 
+
+Reviews and Ratings of the application
+
 
 ### Competitor Analysis
-*(Summarize strengths/weaknesses of your competitors as compared to you – does not have to be in-depth, focus on things that relate directly to your purpose and value prop)*
+Google Calendar - It helps to schedule the meetings, events and get the reminders. 
+
+Strengths/Weakness - ‘Google’ brand has a strong user base and so does the calendar, but it doesn’t have a break management feature which would remind users to take breaks in between work hours.
 
 ### Monetization Model
-*(Briefly propose a monetization model)*
+Integrating the app with professional organizations to increase the productivity of the employees by scheduling the events of their daily lives on the app.
+
+Ads regarding the type of tasks in the to-do list, which suggests the user of near by options to fulfill the task. Fo eg. User wants to go to a gym, we can recommend the near by options for gym through ads.
+
 
 ### Initial Design
-*The purpose of this section is to define the “Minimum Viable Product” (MVP).  It may also be useful to call out the scope and expected/known limitations for your product here.*
+**Scope:**
+
+Users can add their own breaks/the app can set the default breaks
+
+Users can add the repeating events beforehand, may be months before. For eg. gym time, meal timings
+
+Option to allow the users to disable the app/reminders for a day(if they feel like skipping the schedule)
+
+Users can also add personal notes as reminders.
+
+**Limitations:**
+
+If the user choose to use the app without signing in, it won’t be able to restore any of its data from the cloud.
+
 
 ### UI/UX Design
-*(Call out important UI/UX components to have an MVP – does not have to be polished, but should keep the audience, purpose, and value prop in mind)*
+User can either log in through Log-in Page or continue without logging in.
+
+Dashboard which includes options like Breaks, Current day, Events, etc
+
+Screen which enables the users to customize the breaks and add the days/timings.
+
+Screen to show current day’s schedule including the work schedule imported from user’s gmail account, which will also allow users to view the monthly schedule.
+
 
 ### Technical Architecture
-*(What are the necessary components to support an MVP?  Data structures?  Storage considerations?  Web/cloud interactions?  Be sure to put in some thoughts as to how to measure your success here.  Call out dependencies on 3rd party services/APIs here, too)*
+Data structures - Arrays for processing user events
+
+Storage - Store the events in the database(SQLite)
+
+Cloud - To store user settings & data for restoration
+
+3rd party services/APIs -  Gmail/Google Calendar
+
 
 ## Challenges and Open Questions
-*Identify technical challenges that may come up (e.g. hardware limitations, access to data/services, performance issues, etc.) and propose some solutions to the identified challenges.  Also include questions on matters that you are unsure/unclear about that requires feedback from peers, users, or additional research.*
+Integration with Google API
+
+Our app is targeting to give an option of using the app without logging-in. Users can create their schedules offline too. 
+
+If the user deletes the app and re-installs, how are we going to restore the user settings.[Proposed Solution: Settings can be saved based on user’s device id which is unique.]
+
