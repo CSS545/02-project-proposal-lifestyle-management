@@ -39,4 +39,3 @@ Hint: [Markup Guide](https://docs.github.com/en/get-started/writing-on-github/ge
 
 ## Challenges and Open Questions
 *Identify technical challenges that may come up (e.g. hardware limitations, access to data/services, performance issues, etc.) and propose some solutions to the identified challenges.  Also include questions on matters that you are unsure/unclear about that requires feedback from peers, users, or additional research.*
-
